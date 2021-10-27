@@ -1,0 +1,42 @@
+.heart {
+    width: 80px;
+    overflow: hidden;
+    padding: 10px;
+    margin-right: 10px;
+
+}
+
+.like {
+    display: none;
+}
+
+.reactions {
+    display: flex;
+}
+
+.dogs {
+    width: 300px;
+    border: 5px solid #C8A2C8;
+    padding: 15px;
+}
+
+.purple {
+    background-color: #C8A2C8;
+    color: white;
+    border: 2px solid gray;
+}
+
+.blue {
+    background-color: #a7cfcc;
+    color: gray;
+    border: 2px solid gray;
+}
+
+body {
+    background-color: #f2f7f7;
+}
+
+button:hover {
+    background-color: #6c6da1;
+    transition-duration: 0.4s;
+}
